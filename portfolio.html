@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero text-center text-white d-flex align-items-center justify-content-center">
+  <div>
+    <h1 class="display-4 fw-bold">Hello, I'm Saniya</h1>
+    <p class="lead">Web Developer | AI enthusiast | Coder</p>
+    <a href="#projects" class="btn btn-primary btn-lg mt-3">View My Work</a>
+    
+  </div>
+</header>
+
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="https://cdn.pixabay.com/photo/2022/10/14/07/12/muslim-7520627_1280.jpg" alt="Profile" class="rounded-circle img-fluid shadow">
+      </div>
+      <div class="col-md-8">
+        <p>
+          I’m a pre-final year Information Technology student with a strong passion for building responsive, functional websites. I’m deeply interested in AI technologies and continuously work on enhancing my skills to stay at the forefront of technological advancements.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">My Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="https://cdn.pixabay.com/photo/2020/05/30/09/53/todo-lists-5238324_1280.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">To-do list webpage</h5>
+            <p class="card-text">Created a to-do list webpage to manage tasks. Built with HTML, CSS, and JavaScript.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">AI chatbot</h5>
+            <p class="card-text">Created  a chatbot that works on AI.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfVAOPQM3sBOV-L8pJoFgN1rBLaFlsFDhjVQ&s" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio website</h5>
+            <p class="card-text">Created a responsive and mobile friendly portrfolio.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+          </div>
+          <button class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 My Portfolio. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

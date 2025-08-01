@@ -1,0 +1,31 @@
+
+.hero {
+  background: url('https://via.placeholder.com/1920x800') no-repeat center center/cover;
+  height: 100vh;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+.hero {
+  background: url("https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_960_720.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.hero > div {
+  position: relative;
+  z-index: 1;
+}
